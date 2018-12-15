@@ -1,8 +1,5 @@
 def get_first_name_of_season_winner(data, season)
-  # code here	  # code here
-# binding.pry
-  
-    data[season].each do |people|
+  data[season].each do |people|
        people.each do |k,v|
         if v == "Winner"
             full_name = people["name"]
@@ -10,7 +7,7 @@ def get_first_name_of_season_winner(data, season)
         end 
       end
     end
-end	end
+end	
 
 def get_contestant_name(data, occupation)
   # code here
